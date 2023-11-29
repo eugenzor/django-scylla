@@ -61,5 +61,6 @@ class ScyllaModel(Model):
 
     _perform_unique_checks = _perform_unique_checks
     _check_single_primary_key = _check_single_primary_key
+
     class Meta:
         abstract = True
